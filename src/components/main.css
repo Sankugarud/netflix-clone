@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.original{
+    height: 250px;
+}
+.img-poster{
+    width: 250px;
+    object-fit: contain;
+}
+.row-data{
+    width: 95%;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    position: relative;
+}
+.row-data::-webkit-scrollbar{
+    display: none;
+}
+.single-row{
+    display: flex;
+}
+.arrow{
+    position: relative;
+    width: 50px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.arrow:hover{
+    border: 1px solid white;
+}

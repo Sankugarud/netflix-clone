@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.movieimg {
+    width: 200px;
+    max-height: 300px;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.movies {
+    display: flex;
+    padding: 100px 100px;
+    gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.hide {
+    position: fixed;
+    top: 230px;
+    width: 100%;
+}
+/* Example CSS */
+.parent-container {
+    width: 100%; /* Make sure the parent container has sufficient width */
+  }
+  

@@ -1,0 +1,46 @@
+.logo-img {
+    width: 100px;
+  }
+  
+
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    z-index: 1;
+    background-color: transparent; 
+    transition: background-color 0.3s ease; 
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  .right_side{
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    align-items: center;
+  }
+  .right_side a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .right_side a:hover{
+    color: red;
+  }
+
+  .nav_black {
+    background-color: black; /* Apply black background when the .nav_black class is active */
+  }
+  .logout{
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
